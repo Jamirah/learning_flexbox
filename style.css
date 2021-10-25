@@ -1,0 +1,34 @@
+.header-container {
+  width: 1200px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.image-gallary-container {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: space-between;
+  background-color: teal;
+  flex-wrap: wrap;
+}
+.rain-images {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 5px dotted lightpink;
+}
+.rainbow-image {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid turquoise;
+}
